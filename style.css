@@ -6,3 +6,17 @@ body {
     background-image: url('path/to/garden-background.jpg'); /* Replace with actual path to garden image */
     background-size: cover;
 }
+.night {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+        #87ceeb 0%,              /* Sky blue */
+        #e8f4f8 35%,            /* Light sky */
+        #d4e9a0 65%,            /* Green garden */
+        #a89968 100%             /* Brown soil */
+    );
+}
